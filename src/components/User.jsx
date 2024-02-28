@@ -7,7 +7,6 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 const User = () => {
   
     const [user] = useAuthState(auth)
-    const [loading, setloading] = useState(true);
     const [image, setimage] = useState("/user.png");
     const [username, setusername] = useState("Name User");
 
@@ -29,23 +28,12 @@ const User = () => {
         <div className='flex flex-col items-center mr-10'>
             <h3 className='text-4xl inter600 mb-5'>Chatify</h3>
             <div className='h-[300px] w-[300px] flex flex-col'>
-                <article className='bg-[#F3F6FB] h-full flex flex-col items-center justify-center rounded-md border-2'>
-                    
-                    {
-                        loading ? 
-                        <div className="loader">
-                            <div className="loader-wheel"></div>
-                        </div>
-                        :
-                        <>
-                            <img src={image} className='rounded-full mb-5 w-[96px] h-[96px]' alt="" referrerPolicy='no-referrer'/>
-                            <p className=' inter400 mb-4'>{username}</p>
-                            {
-                                user ? <Logout/> : <Login/>
-                            }
-                        </>
-                    
-                    }
+                <article className='bg-[#F3F6FB] h-full flex flex-col items-center justify-center rounded-md border-2'>    
+                <img src={image} className='rounded-full mb-5 w-[96px] h-[96px]' alt="" referrerPolicy='no-referrer'/>
+                <p className=' inter400 mb-4'>{username}</p>
+                {
+                    user ? <Logout/> : <Login/>
+                }
                 </article>
             </div>
         </div>
