@@ -1,8 +1,12 @@
-# React + Vite
+# Chatify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Coded on React in the frontend and Firebase on the backend
 
-Currently, two official plugins are available:
+Website to chat online
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deploy: <a href="https://chatify-rusher.vercel.app/" target="_blank">Click</a>
+
+Image:
+
+![image](https://github.com/rusherdv/chatify/assets/105472000/b7753310-53a4-404b-a5f4-33500c1697d8)
+
