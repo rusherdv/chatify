@@ -15,7 +15,6 @@ const User = () => {
             if(user){
                 setimage(user.photoURL)
                 setusername(user.displayName)
-                setloading(false)
             }else{
                 setimage("/user.png")
                 setusername("Name User")
