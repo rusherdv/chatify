@@ -2,7 +2,7 @@
   <h1>Chatify</h1>
 </div>
 
-Coded on React in the frontend and Firebase on the backend
+Real time chat app programmed on ReactJS and using Firebase for backend and database.
 
 <hr>
 
@@ -19,8 +19,6 @@ Coded on React in the frontend and Firebase on the backend
 2. Then put: npm run build
 
 Deploy: <a href="https://chatify-rusher.vercel.app/" target="_blank">Click</a>
-
-Website to chat online
 
 <hr>
 
